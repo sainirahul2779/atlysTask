@@ -7,7 +7,7 @@
 import SwiftUI
 
 
-struct ZStackCarousel: View {
+struct AtlysCrousel: View {
     let items = [
         DemoCard(title: "India", image: "item1"),
         DemoCard(title: "Dubai", image: "item2"),
@@ -119,7 +119,7 @@ struct DemoCard: Identifiable {
 
 
 #Preview {
-    ZStackCarousel()
+    AtlysCrousel()
         .padding(.vertical, 40)
         .background(Color(.systemGroupedBackground))
 }
